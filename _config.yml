@@ -1,0 +1,19 @@
+
+title: Smartduck
+author: Carsten Ehbrecht and Étienne Plésiat, 
+logo: smartduck-logo.png
+
+execute:
+  execute_notebooks: force
+
+latex:
+  latex_documents:
+    targetname: smartduck-doc.tex
+
+
+repository:
+  url: https://github.com/FREVA-CLINT/smartduck-docs
+
+html:
+  use_issues_button: true
+  use_repository_button: true

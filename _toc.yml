@@ -1,0 +1,7 @@
+format: jb-book
+root: intro
+chapters:
+- file: about-crai
+- file: about-birdhouse
+- file: about-smartduck
+- file: deployment
