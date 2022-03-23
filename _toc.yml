@@ -3,5 +3,5 @@ root: intro
 chapters:
 - file: about-crai
 - file: birdhouse
-- file: about-smartduck
+- file: duck
 - file: deployment

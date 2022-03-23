@@ -4,6 +4,7 @@ channels:
 dependencies:
 - pip
 - python>=3.7
+- sphinx
 - jupyter-book
 - matplotlib
 - numpy

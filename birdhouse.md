@@ -15,16 +15,16 @@ We show here an example how to build your processing service application, *duck*
 
 Install cookiecutter:
 ```
-$ conda install -c conda-forge cookiecutter cruft
+conda install -c conda-forge cookiecutter cruft
 ```
 
 Run the cookiecutter with the birdhouse template:
 ```
-$ cruft create https://github.com/bird-house/cookiecutter-birdhouse.git
+cruft create https://github.com/bird-house/cookiecutter-birdhouse.git
 ```
 
 Once cookiecutter clones the template, you will be asked a series of questions related to your project:
-```
+```console
 full_name [Full Name]: Alice Kingsleigh
 email [your@email]: alice@wonderland.org
 github_username [bird-house]: clint
