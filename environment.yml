@@ -1,0 +1,10 @@
+name: smartduck-docs
+channels:
+- conda-forge
+dependencies:
+- pip
+- python>=3.7
+- sphinx
+- jupyter-book
+- matplotlib
+- numpy
