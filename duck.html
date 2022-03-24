@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deployment &#8212; Smartduck</title>
+    <title>Duck Demo App &#8212; Smartduck</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -50,7 +50,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="About Smartduck" href="about-smartduck.html" />
+    <link rel="next" title="Phoenix" href="phoenix.html" />
+    <link rel="prev" title="Birdhouse" href="birdhouse.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -96,23 +97,23 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="about-crai.html">
+  <a class="reference internal" href="climatereconstructionAI.html">
    About climatereconstructionAI
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="about-birdhouse.html">
-   About Birdhouse
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="about-smartduck.html">
-   About Smartduck
+  <a class="reference internal" href="birdhouse.html">
+   Birdhouse
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Deployment
+   Duck Demo App
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="phoenix.html">
+   Phoenix
   </a>
  </li>
 </ul>
@@ -156,7 +157,7 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/deployment.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/duck.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -176,7 +177,7 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/FREVA-CLINT/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fdeployment.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/FREVA-CLINT/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fduck.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -197,6 +198,19 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-duck-with-conda">
+   Install duck with conda
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -204,19 +218,68 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Deployment</h1>
+                <h1>Duck Demo App</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-duck-with-conda">
+   Install duck with conda
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="deployment">
-<h1>Deployment<a class="headerlink" href="#deployment" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="duck-demo-app">
+<h1>Duck Demo App<a class="headerlink" href="#duck-demo-app" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://github.com/FREVA-CLINT/duck">Duck</a> is a demo web-application for the <em>CLINT</em> project.
+It provides an AI-enhanced service to infill missing values in climate datasets.</p>
+<p>The current demo gives the possibility to infill near-surface air temperature anomalies in the <a class="reference external" href="https://www.metoffice.gov.uk/hadobs/hadcrut4/">HadCRUT4</a> and <a class="reference external" href="https://www.metoffice.gov.uk/hadobs/hadcrut5/">HadCRUT5</a> datasets.</p>
+<div class="section" id="install-duck-with-conda">
+<h2>Install duck with conda<a class="headerlink" href="#install-duck-with-conda" title="Permalink to this headline">¶</a></h2>
+<p>We need <code class="docutils literal notranslate"><span class="pre">mamba</span></code> to install the requirements.
+Use your existing <code class="docutils literal notranslate"><span class="pre">mamba</span></code> or install it from here:
+<a class="reference external" href="https://github.com/conda-forge/miniforge">https://github.com/conda-forge/miniforge</a></p>
+<p>Get the source:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">FREVA</span><span class="o">-</span><span class="n">CLINT</span><span class="o">/</span><span class="n">duck</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">duck</span>
+</pre></div>
+</div>
+<p>Create the conda environment for duck:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">env</span> <span class="n">create</span>
+</pre></div>
+</div>
+<p>Activate the duck environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">duck</span>
+</pre></div>
+</div>
+<p>Install duck in this environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>Start your duck as a web service:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">duck</span> <span class="n">start</span> <span class="o">-</span><span class="n">d</span>
+</pre></div>
+</div>
+<p>See it is responding by sending a WPS <code class="docutils literal notranslate"><span class="pre">GetCapabilities</span></code> request:</p>
+<p><a class="reference external" href="http://localhost:5000?service=WPS&amp;request=GetCapabilities">http://localhost:5000?service=WPS&amp;request=GetCapabilities</a></p>
+<p>You can stop the service with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">duck</span> <span class="n">stop</span>
+</pre></div>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -244,12 +307,19 @@ const thebe_selector_output = ".output, .cell_output"
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="about-smartduck.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="birdhouse.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">About Smartduck</p>
+            <p class="prev-next-title">Birdhouse</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="phoenix.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Phoenix</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Smartduck &#8212; Smartduck</title>
+    <title>Phoenix &#8212; Smartduck</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -50,8 +50,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Deployment" href="deployment.html" />
-    <link rel="prev" title="About Birdhouse" href="about-birdhouse.html" />
+    <link rel="prev" title="Duck Demo App" href="duck.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -97,23 +96,23 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="about-crai.html">
+  <a class="reference internal" href="climatereconstructionAI.html">
    About climatereconstructionAI
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="about-birdhouse.html">
-   About Birdhouse
+  <a class="reference internal" href="birdhouse.html">
+   Birdhouse
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="duck.html">
+   Duck Demo App
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   About Smartduck
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="deployment.html">
-   Deployment
+   Phoenix
   </a>
  </li>
 </ul>
@@ -157,7 +156,7 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/about-smartduck.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/phoenix.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -177,7 +176,7 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/FREVA-CLINT/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fabout-smartduck.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/FREVA-CLINT/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fphoenix.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -198,6 +197,19 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infill-with-duck">
+   Infill with Duck
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -205,19 +217,82 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>About Smartduck</h1>
+                <h1>Phoenix</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infill-with-duck">
+   Infill with Duck
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="about-smartduck">
-<h1>About Smartduck<a class="headerlink" href="#about-smartduck" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="phoenix">
+<h1>Phoenix<a class="headerlink" href="#phoenix" title="Permalink to this headline">¶</a></h1>
+<p>Phoenix is a web application to work with processing services like our <em>duck</em> demo.
+We have deployed the <em>duck</em> demo on a virtual machine at <a class="reference external" href="https://www.dkrz.de/en/">DKRZ</a>.
+In the following example we run the <em>duck</em> infill process using the Phoenix app.</p>
+<div class="section" id="infill-with-duck">
+<h2>Infill with Duck<a class="headerlink" href="#infill-with-duck" title="Permalink to this headline">¶</a></h2>
+<p>Go to the Phoenix app:
+<a class="reference external" href="https://bovec.dkrz.de">https://bovec.dkrz.de</a></p>
+<ul class="simple">
+<li><p>Choose the <em>Duck</em> processing service</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/phoenix-duck-wps.png"><img alt="_images/phoenix-duck-wps.png" src="_images/phoenix-duck-wps.png" style="width: 362.0px; height: 467.0px;" /></a>
+</div>
+<ul class="simple">
+<li><p>Use the <em>ClintAI</em> process</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/phoenix-duck-processes.png"><img alt="_images/phoenix-duck-processes.png" src="_images/phoenix-duck-processes.png" style="width: 705.0px; height: 364.0px;" /></a>
+</div>
+<ul class="simple">
+<li><p>Select a HadCRUT5 dataset for the infill process</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/phoenix-duck-infill.png"><img alt="_images/phoenix-duck-infill.png" src="_images/phoenix-duck-infill.png" style="width: 987.0px; height: 496.0px;" /></a>
+</div>
+<ul class="simple">
+<li><p>Wait for the process to finish …</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/phoenix-duck-monitor.png"><img alt="_images/phoenix-duck-monitor.png" src="_images/phoenix-duck-monitor.png" style="width: 440.0px; height: 263.0px;" /></a>
+</div>
+<ul class="simple">
+<li><p>When the process has finished go to the <em>details</em> to show the outputs</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/phoenix-duck-outputs.png"><img alt="_images/phoenix-duck-outputs.png" src="_images/phoenix-duck-outputs.png" style="width: 717.0px; height: 579.0px;" /></a>
+</div>
+<ul class="simple">
+<li><p>Outputs: a plot before the infill</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/duck-plot-before.png"><img alt="_images/duck-plot-before.png" src="_images/duck-plot-before.png" style="width: 387.0px; height: 304.5px;" /></a>
+</div>
+<ul class="simple">
+<li><p>Outputs: a plot after the infill</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/duck-plot-after.png"><img alt="_images/duck-plot-after.png" src="_images/duck-plot-after.png" style="width: 387.0px; height: 304.5px;" /></a>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -245,19 +320,12 @@ const thebe_selector_output = ".output, .cell_output"
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="about-birdhouse.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="duck.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">About Birdhouse</p>
+            <p class="prev-next-title">Duck Demo App</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="deployment.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Deployment</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             
