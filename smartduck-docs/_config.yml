@@ -1,7 +1,7 @@
 
 title: Smartduck
-author: Carsten Ehbrecht and Étienne Plésiat, 
-logo: smartduck-logo.png
+author: Carsten Ehbrecht and Étienne Plésiat,
+logo: media/smartduck-logo.png
 
 execute:
   execute_notebooks: force

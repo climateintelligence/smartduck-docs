@@ -23,10 +23,10 @@ $ conda activate smartduck-docs
 
 Build HTML pages locally:
 ```
-$ jupyter-book build .
+$ jupyter-book build smartduck-docs
 ```
 
 Open generated docs in firefox:
 ```
-$ firefox _build/html/index.html
+$ firefox smartduck-docs/_build/html/index.html
 ```
