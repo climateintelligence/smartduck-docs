@@ -1,7 +1,0 @@
-format: jb-book
-root: intro
-chapters:
-- file: climatereconstructionAI
-- file: birdhouse
-- file: duck
-- file: phoenix
