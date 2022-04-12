@@ -9,7 +9,7 @@ This documentation is written using [Jupyter Book](https://jupyterbook.org/intro
 
 Get source from GitHub:
 ```
-$ git clone https://github.com/FREVA-CLINT/smartduck-docs.git
+$ git clone https://github.com/climateintelligence/smartduck-docs.git
 $ cd smartduck-docs
 ```
 

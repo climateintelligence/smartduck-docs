@@ -12,7 +12,7 @@ latex:
 
 
 repository:
-  url: https://github.com/FREVA-CLINT/smartduck-docs
+  url: https://github.com/climateintelligence/smartduck-docs
 
 html:
   use_issues_button: true
