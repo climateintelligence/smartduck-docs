@@ -1,6 +1,6 @@
-# ClimatereconstructionAI
+# CRAI (Climate Reconstruction AI)
 
-[climatereconstructionAI](https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint) is a state-of-the-art deep learning based inpainting technology to infill missing values in climate datasets.
+[CRAI](https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint) is a state-of-the-art deep learning based inpainting technology to infill missing values in climate datasets.
 
 ## The method
 
@@ -28,7 +28,7 @@ Compared to other inpainting methods [^1], the partial convolution technique off
 
 ## Installation
 
-climatereconstructionAI is written in Python and based on the PyTorch framework and the NVIDIA CUDA® Deep Neural Network library (cuDNN). It is licensed under the terms of the BSD 3-Clause.
+CRAI is written in Python and based on the PyTorch framework and the NVIDIA CUDA® Deep Neural Network library (cuDNN). It is licensed under the terms of the BSD 3-Clause.
 
 Step 1: clone the branch of the repository:
 ```bash
