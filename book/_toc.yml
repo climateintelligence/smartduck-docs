@@ -5,4 +5,4 @@ chapters:
 - file: sections/duck
 - file: sections/phoenix
 - file: sections/guide_buildservice
-- file: sections/guide_docs-tests
+# - file: sections/guide_docs-tests
