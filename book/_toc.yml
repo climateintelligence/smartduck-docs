@@ -2,6 +2,6 @@ format: jb-book
 root: sections/intro
 chapters:
 - file: sections/crai
-- file: sections/birdhouse
 - file: sections/duck
 - file: sections/phoenix
+- file: sections/birdhouse

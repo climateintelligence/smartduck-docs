@@ -1,4 +1,4 @@
-Guideline
+# Make your own climate building block
 
 the following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems.
 
@@ -65,13 +65,13 @@ The [Birdhouse](http://bird-house.github.io/) organisation is a collection on OG
 
 ## Create your own climate building block
 
+The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems.
 
-the following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems.
-
-## Background
 [Birdhouse](http://bird-house.github.io/) tools enable you to build your
 own customised [Web Processing Service](http://opengeospatial.org/standards/wps)
 application in support of web-based geospatial (climate) data analysis.
+
+
 Birdhouse offers you:
 
 * A [Cookiecutter template](https://github.com/bird-house/cookiecutter-birdhouse) to create your own [PyWPS](http://pywps.org/) compute service.
