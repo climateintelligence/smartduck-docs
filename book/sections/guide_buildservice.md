@@ -1,4 +1,4 @@
-# Make your own climate building block
+# GUIDE: Make your own climate building block
 
 {tableofcontents}
 

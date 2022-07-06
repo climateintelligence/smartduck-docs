@@ -1,4 +1,4 @@
-### Writing documentation
+# GUIDE: Writing documentation and tests
 
 Last but not least, a very very important point is to write a good documentation about your work! Each WPS (bird) has a docs folder for this where the documentation is written in reStructuredText_ and generated with Sphinx_.
 
