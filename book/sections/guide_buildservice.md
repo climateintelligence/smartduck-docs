@@ -24,7 +24,7 @@ For data users, the prevailing *modus operandi* has traditionally been to downlo
 A high certainty and quality of scientific evidence is needed for information in a juridical context to regulate the conflict between economic development and environmental protection :cite:`Brown2019`. Therefor backend solutions to provide climate information for decision makers, need to be as much as possible 'error free'. The challenge of high-quality software solutions is illustrated with Linus's law that "given enough eyeballs, all bugs are shallow". :cite:`Raymond2001`. In free and open source for geospatial (FOSS4G) developments workflows, independent developer groups are collaborating in a win-win situation and ensuring a high-quality software product :cite:`Bahamdain2015`. Public repositories enabling a work efficient participating and knowledge sharing approach :cite:`Bejoy2010`.
 
 ### Interoperable
-Following the UNGGIM recommendations (2020) about 'Implementation and adoption of standards for the global geospatial information community' climate data should be organized following this UNGIM recommendations.  (http://ggim.un.org/meetings/GGIM-committee/10th-Session/documents/E-C.20-2020-33-Add_1-Implementation-and-Adoption-of-Standards-21Jul2020.pdf)
+Following the UNGGIM recommendations (2020) about 'Implementation and adoption of standards for the global geospatial information community' climate data should be organized following this [UNGIM recommendations](http://ggim.un.org/meetings/GGIM-committee/10th-Session/documents/E-C.20-2020-33-Add_1-Implementation-and-Adoption-of-Standards-21Jul2020.pdf).
 Interoperabillity needs to be respected on two levels:
 
 **Interoperable data :**
