@@ -21,7 +21,7 @@ In free and open source for geospatial (FOSS4G) developments workflows, independ
 For data users, the prevailing *modus operandi* has traditionally been to download raw data locally to conduct analyses. As data volume grows, bandwidth and local storage capacity limits the type of science that individual scientists can perform.
 
 **Access to algorithms:**
-A high certainty and quality of scientific evidence is needed for information in a juridical context to regulate the conflict between economic development and environmental protection :cite:`Brown2019`. Therefor backend solutions to provide climate information for decision makers, need to be as much as possible 'error free'. The challenge of high-quality software solutions is illustrated with Linus's law that "given enough eyeballs, all bugs are shallow". :cite:`Raymond2001`. In free and open source for geospatial (FOSS4G) developments workflows, independent developer groups are collaborating in a win-win situation and ensuring a high-quality software product :cite:`Bahamdain2015`. Public repositories enabling a work efficient participating and knowledge sharing approach :cite:`Bejoy2010`.
+A high certainty and quality of scientific evidence is needed for information in a juridical context to regulate the conflict between economic development and environmental protection :cite:`Brown2019`. Therefor backend solutions to provide climate information for decision makers, need to be as much as possible *error free*. The challenge of high-quality software solutions is illustrated with Linus's law that "given enough eyeballs, all bugs are shallow". :cite:`Raymond2001`. In free and open source for geospatial (FOSS4G) developments workflows, independent developer groups are collaborating in a win-win situation and ensuring a high-quality software product :cite:`Bahamdain2015`. Public repositories enabling a work efficient participating and knowledge sharing approach :cite:`Bejoy2010`.
 
 ### Interoperable
 Following the UNGGIM recommendations (2020) about 'Implementation and adoption of standards for the global geospatial information community' climate data should be organized following this [UNGIM recommendations](http://ggim.un.org/meetings/GGIM-committee/10th-Session/documents/E-C.20-2020-33-Add_1-Implementation-and-Adoption-of-Standards-21Jul2020.pdf).
@@ -48,7 +48,7 @@ This implies that reproducabillity results might not be easily reproducible if e
 
 ## Climate building blocks
 
-Here we understand **Climate Building blocks** as standalone software in line to the [OGC API standards](https://developer.ogc.org). IN the [Birdhouse](http://bird-house.github.io/) organisation you can find a collection on OGC Standards based software. These software blocks can be used to build customised Climate Resilience Information System.
+Here we understand **Climate Building blocks** as standalone software in line to the [OGC API standards](https://developer.ogc.org). In the [Birdhouse](http://bird-house.github.io/) organisation you can find a collection on OGC Standards based software. These software blocks can be used to build customised Climate Resilience Information System.
 
 ## Create your own climate building block
 The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. [Birdhouse](http://bird-house.github.io/) organisation lowers the barriers to set up new Climate building blocks
@@ -114,7 +114,7 @@ On the other side, the number of output files are defined as well. Here number a
 Basically your existing code can be integrated by simply taking care of some rules:
 
 *    no hard coding of path to local data sources, since the building block should run on all kind of different servers
-*    encapsulating the processing steps in 'try' and 'exception' brackets with senseful log messages
+*    encapsulating the processing steps in `try` and `exception` brackets with senseful log messages
 
 
 Another point to think about when designing a process is the possibility of chaining processes together. The result of a process can be a final result or be used as an input for another process. Chaining processes is a common practice but depends on the user you are designing the service for. Technically, for the development of Services process chaining, here are a few summary points:
