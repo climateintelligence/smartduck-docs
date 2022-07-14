@@ -117,7 +117,7 @@ Basically your existing code can be integrated by simply taking care of some rul
 *    encapsulating the processing steps in 'try' and 'exception' brackets with senseful log messages
 
 
-Another point to think about when designing a process is the possibility of chaining processes together. The result of a process can be a final result or be used as an input for another process. Chaining processes is a common practice but depends on the user you are designing the service for. Technically, for the development of Services process chaining, here are a few summary points:
+<!-- [Another point to think about when designing a process is the possibility of chaining processes together. The result of a process can be a final result or be used as an input for another process. Chaining processes is a common practice but depends on the user you are designing the service for. Technically, for the development of Services process chaining, here are a few summary points:
 
 *    the functional code should be modular and provide an interface/method for each single task
 *    provide a wps process for each task
@@ -126,8 +126,7 @@ Another point to think about when designing a process is the possibility of chai
 *    a complete workflow chain could also be started by a wps process.
 
 ```{figure} /media/guide_serviceschain.png
-```
-
+```   -->
 ### Writing functions
 
 A Process is calling several functions during the performance. Since WPS is a autonom running process several eventualities needs to be taken into account. If irregularities are occurring, it is a question of the process design if the performance should stop and return an error or continue with may be an modified result.
