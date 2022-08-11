@@ -54,8 +54,38 @@ http_port [5000]:
 use_pytest [y]: y
 create_author_file [y]: y
 ```
-
 We have created a *duck* app for the *CLINT* project using this template.
+
+## create the birds environment.
+The new bird is coming with as a fully operational service. The appropriate environment is defined in the ./{birdname}/environment.yml file and can be installed with
+
+```
+mamba env create
+```
+or
+```
+conda env create
+```
+
+to switch into the environment:
+```
+conda activate duck
+```
+
+## Installing and running the bird
+Since the climate build blocks are web services, they need to be started to make the service available. They can be installed with running in the root folder and activated environment of the bird:
+```
+pip install -e .
+```
+Which is installing the service.
+With `duck start`, the service is up and running.
+
+testable in a webbrowser:
+
+http://localhost:5000/wps?version=1.0.0&request=GetCapabilities&&service=WPS
+or
+http://localhost:5000/wps?version=1.0.0&request=DescribeProcess&&service=WPS&identifier=hello
+
 
 ## Fill your new climate building block with scientific algorithms
 
