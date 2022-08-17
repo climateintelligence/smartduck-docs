@@ -4,8 +4,8 @@ chapters:
 - file: sections/guide_developservice
 - file: sections/guide_science-crai
 - file: sections/guide_deployment-duck
-- file: sections/guide_docs-tests
-# server administration
+# - file: sections/guide_docs-tests
+# - file: sections/guide_administration
 - file: sections/guide_GUI-phoenix
 - file: sections/guide_client-birdy
 - file: sections/guide_fairclimateservices
