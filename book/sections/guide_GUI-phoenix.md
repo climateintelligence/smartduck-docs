@@ -1,6 +1,8 @@
-# Phoenix
+# GUI for Climate Services Information Systems
 
-Phoenix is a web application to work with processing services like our *duck* demo.
+## Example: Phoenix
+
+* Birdhouse provides a web-based application where birds can be linked into it for GUI usage.  [Phoenix](https://github.com/bird-house/pyramid-phoenix). Phoenix is a web application to work with processing services like our *duck* demo.
 We have deployed the *duck* demo on a virtual machine at [DKRZ](https://www.dkrz.de/en/).
 In the following example we run the *duck* infill process using the Phoenix app.
 

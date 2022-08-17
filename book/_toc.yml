@@ -1,8 +1,13 @@
 format: jb-book
 root: sections/intro
 chapters:
-- file: sections/crai
-- file: sections/duck
-- file: sections/phoenix
-- file: sections/guide_buildservice
-# - file: sections/guide_docs-tests
+- file: sections/guide_developservice
+- file: sections/guide_science-crai
+- file: sections/guide_deployment-duck
+- file: sections/guide_docs-tests
+# server administration
+- file: sections/guide_GUI-phoenix
+- file: sections/guide_client-birdy
+- file: sections/guide_fairclimateservices
+- file: sections/ogc_existingBuildingBlocks
+- file: sections/bibliography
