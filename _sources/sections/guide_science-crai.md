@@ -1,4 +1,6 @@
-# CRAI (Climate Reconstruction AI)
+# Science for an OGC Building Block for climate services
+
+## Example CRAI (Climate Reconstruction AI)
 
 [CRAI](https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint) is a state-of-the-art deep learning based inpainting technology to infill missing values in climate datasets.
 

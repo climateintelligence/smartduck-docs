@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Phoenix &#8212; Smartduck</title>
+    <title>Commands to call a Climate Services Information System &#8212; Smartduck</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="GUIDE: Make your own climate building block" href="guide_buildservice.html" />
-    <link rel="prev" title="Duck Demo App" href="duck.html" />
+    <link rel="next" title="FAIR Climate Services" href="guide_fairclimateservices.html" />
+    <link rel="prev" title="GUI for Climate Services Information Systems" href="guide_GUI-phoenix.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -109,29 +109,49 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to Smartduck
+                    OGC Building Blocks for Climate Services
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="crai.html">
-   CRAI (Climate Reconstruction AI)
+  <a class="reference internal" href="guide_developservice.html">
+   Develop your own building block for climate services
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="duck.html">
-   Duck Demo App
+  <a class="reference internal" href="guide_science-crai.html">
+   Science for an OGC Building Block for climate services
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_deployment-duck.html">
+   Deploy a building block as Climate Service
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_GUI-phoenix.html">
+   GUI for Climate Services Information Systems
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Phoenix
+   Commands to call a Climate Services Information System
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="guide_buildservice.html">
-   GUIDE: Make your own climate building block
+  <a class="reference internal" href="guide_fairclimateservices.html">
+   FAIR Climate Services
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ogc_existingBuildingBlocks.html">
+   Existing OGC building blocks for climate service
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="bibliography.html">
+   Bibliography
   </a>
  </li>
 </ul>
@@ -224,7 +244,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/climateintelligence/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fsections/phoenix.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/climateintelligence/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fsections/guide_client-birdy.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -252,7 +272,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/sections/phoenix.md"
+        <a href="../_sources/sections/guide_client-birdy.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -289,60 +309,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infill-with-duck">
-   Infill with Duck
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Phoenix</h1>
+                <h1>Commands to call a Climate Services Information System</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infill-with-duck">
-   Infill with Duck
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -350,58 +333,11 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="phoenix">
-<h1>Phoenix<a class="headerlink" href="#phoenix" title="Permalink to this headline">#</a></h1>
-<p>Phoenix is a web application to work with processing services like our <em>duck</em> demo.
-We have deployed the <em>duck</em> demo on a virtual machine at <a class="reference external" href="https://www.dkrz.de/en/">DKRZ</a>.
-In the following example we run the <em>duck</em> infill process using the Phoenix app.</p>
-<section id="infill-with-duck">
-<h2>Infill with Duck<a class="headerlink" href="#infill-with-duck" title="Permalink to this headline">#</a></h2>
-<p>Go to the Phoenix app:
-<a class="reference external" href="https://bovec.dkrz.de">https://bovec.dkrz.de</a></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="commands-to-call-a-climate-services-information-system">
+<h1>Commands to call a Climate Services Information System<a class="headerlink" href="#commands-to-call-a-climate-services-information-system" title="Permalink to this headline">#</a></h1>
 <ul class="simple">
-<li><p>Choose the <em>Duck</em> processing service</p></li>
+<li><p>Birdhouse is also providing a Python library client, <a class="reference external" href="https://github.com/bird-house/birdy">Birdy</a>, suitable for <a class="reference external" href="https://jupyter.org/">Jupyter notebooks</a> to interact with WPS compute services.</p></li>
 </ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/phoenix-duck-wps.png"><img alt="../_images/phoenix-duck-wps.png" src="../_images/phoenix-duck-wps.png" style="width: 362.0px; height: 467.0px;" /></a>
-</figure>
-<ul class="simple">
-<li><p>Use the <em>ClintAI</em> process</p></li>
-</ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/phoenix-duck-processes.png"><img alt="../_images/phoenix-duck-processes.png" src="../_images/phoenix-duck-processes.png" style="width: 705.0px; height: 364.0px;" /></a>
-</figure>
-<ul class="simple">
-<li><p>Select a HadCRUT5 dataset for the infill process</p></li>
-</ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/phoenix-duck-infill.png"><img alt="../_images/phoenix-duck-infill.png" src="../_images/phoenix-duck-infill.png" style="width: 987.0px; height: 496.0px;" /></a>
-</figure>
-<ul class="simple">
-<li><p>Wait for the process to finish …</p></li>
-</ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/phoenix-duck-monitor.png"><img alt="../_images/phoenix-duck-monitor.png" src="../_images/phoenix-duck-monitor.png" style="width: 440.0px; height: 263.0px;" /></a>
-</figure>
-<ul class="simple">
-<li><p>When the process has finished go to the <em>details</em> to show the outputs</p></li>
-</ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/phoenix-duck-outputs.png"><img alt="../_images/phoenix-duck-outputs.png" src="../_images/phoenix-duck-outputs.png" style="width: 717.0px; height: 579.0px;" /></a>
-</figure>
-<ul class="simple">
-<li><p>Outputs: a plot before the infill</p></li>
-</ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/duck-plot-before.png"><img alt="../_images/duck-plot-before.png" src="../_images/duck-plot-before.png" style="width: 387.0px; height: 304.5px;" /></a>
-</figure>
-<ul class="simple">
-<li><p>Outputs: a plot after the infill</p></li>
-</ul>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../_images/duck-plot-after.png"><img alt="../_images/duck-plot-after.png" src="../_images/duck-plot-after.png" style="width: 387.0px; height: 304.5px;" /></a>
-</figure>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -431,17 +367,17 @@ In the following example we run the <em>duck</em> infill process using the Phoen
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="duck.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="guide_GUI-phoenix.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Duck Demo App</p>
+            <p class="prev-next-title">GUI for Climate Services Information Systems</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="guide_buildservice.html" title="next page">
+    <a class='right-next' id="next-link" href="guide_fairclimateservices.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">GUIDE: Make your own climate building block</p>
+        <p class="prev-next-title">FAIR Climate Services</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

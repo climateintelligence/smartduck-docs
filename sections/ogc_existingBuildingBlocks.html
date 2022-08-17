@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Duck Demo App &#8212; Smartduck</title>
+    <title>Existing OGC building blocks for climate service &#8212; Smartduck</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Phoenix" href="phoenix.html" />
-    <link rel="prev" title="CRAI (Climate Reconstruction AI)" href="crai.html" />
+    <link rel="next" title="Bibliography" href="bibliography.html" />
+    <link rel="prev" title="FAIR Climate Services" href="guide_fairclimateservices.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -109,29 +109,49 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to Smartduck
+                    OGC Building Blocks for Climate Services
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="crai.html">
-   CRAI (Climate Reconstruction AI)
+  <a class="reference internal" href="guide_developservice.html">
+   Develop your own building block for climate services
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_science-crai.html">
+   Science for an OGC Building Block for climate services
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_deployment-duck.html">
+   Deploy a building block as Climate Service
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_GUI-phoenix.html">
+   GUI for Climate Services Information Systems
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_client-birdy.html">
+   Commands to call a Climate Services Information System
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="guide_fairclimateservices.html">
+   FAIR Climate Services
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Duck Demo App
+   Existing OGC building blocks for climate service
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="phoenix.html">
-   Phoenix
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="guide_buildservice.html">
-   GUIDE: Make your own climate building block
+  <a class="reference internal" href="bibliography.html">
+   Bibliography
   </a>
  </li>
 </ul>
@@ -224,7 +244,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/climateintelligence/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fsections/duck.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/climateintelligence/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fsections/ogc_existingBuildingBlocks.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -252,7 +272,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/sections/duck.md"
+        <a href="../_sources/sections/ogc_existingBuildingBlocks.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -289,60 +309,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#install-duck-with-conda">
-   Install duck with conda
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Duck Demo App</h1>
+                <h1>Existing OGC building blocks for climate service</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#install-duck-with-conda">
-   Install duck with conda
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -350,44 +333,9 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="duck-demo-app">
-<h1>Duck Demo App<a class="headerlink" href="#duck-demo-app" title="Permalink to this headline">#</a></h1>
-<p><a class="reference external" href="https://github.com/climateintelligence/duck">Duck</a> is a demo web-application for the <em>CLINT</em> project.
-It provides an AI-enhanced service to infill missing values in climate datasets.</p>
-<p>The current demo gives the possibility to infill near-surface air temperature anomalies in the <a class="reference external" href="https://www.metoffice.gov.uk/hadobs/hadcrut4/">HadCRUT4</a> and <a class="reference external" href="https://www.metoffice.gov.uk/hadobs/hadcrut5/">HadCRUT5</a> datasets.</p>
-<section id="install-duck-with-conda">
-<h2>Install duck with conda<a class="headerlink" href="#install-duck-with-conda" title="Permalink to this headline">#</a></h2>
-<p>We need <code class="docutils literal notranslate"><span class="pre">mamba</span></code> to install the requirements.
-Use your existing <code class="docutils literal notranslate"><span class="pre">mamba</span></code> or install it from here:
-<a class="reference external" href="https://github.com/conda-forge/miniforge">https://github.com/conda-forge/miniforge</a></p>
-<p>Get the source:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">climateintelligence</span><span class="o">/</span><span class="n">duck</span><span class="o">.</span><span class="n">git</span>
-<span class="n">cd</span> <span class="n">duck</span>
-</pre></div>
-</div>
-<p>Create the conda environment for duck:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">env</span> <span class="n">create</span>
-</pre></div>
-</div>
-<p>Activate the duck environment:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">duck</span>
-</pre></div>
-</div>
-<p>Install duck in this environment:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
-</pre></div>
-</div>
-<p>Start your duck as a web service:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">duck</span> <span class="n">start</span> <span class="o">-</span><span class="n">d</span>
-</pre></div>
-</div>
-<p>See it is responding by sending a WPS <code class="docutils literal notranslate"><span class="pre">GetCapabilities</span></code> request:</p>
-<p><a class="reference external" href="http://localhost:5000?service=WPS&amp;request=GetCapabilities">http://localhost:5000?service=WPS&amp;request=GetCapabilities</a></p>
-<p>You can stop the service with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">duck</span> <span class="n">stop</span>
-</pre></div>
-</div>
-</section>
+  <section class="tex2jax_ignore mathjax_ignore" id="existing-ogc-building-blocks-for-climate-service">
+<h1>Existing OGC building blocks for climate service<a class="headerlink" href="#existing-ogc-building-blocks-for-climate-service" title="Permalink to this headline">#</a></h1>
+<p>Overview of birdhouse components</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -417,17 +365,17 @@ Use your existing <code class="docutils literal notranslate"><span class="pre">m
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="crai.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="guide_fairclimateservices.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">CRAI (Climate Reconstruction AI)</p>
+            <p class="prev-next-title">FAIR Climate Services</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="phoenix.html" title="next page">
+    <a class='right-next' id="next-link" href="bibliography.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Phoenix</p>
+        <p class="prev-next-title">Bibliography</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

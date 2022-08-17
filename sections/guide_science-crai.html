@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>OGC Building Blocks for Climate Services &#8212; Smartduck</title>
+    <title>Science for an OGC Building Block for climate services &#8212; Smartduck</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,9 +50,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Develop your own building block for climate services" href="guide_developservice.html" />
+    <link rel="next" title="Deploy a building block as Climate Service" href="guide_deployment-duck.html" />
+    <link rel="prev" title="Develop your own building block for climate services" href="guide_developservice.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -106,20 +109,20 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     OGC Building Blocks for Climate Services
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="guide_developservice.html">
    Develop your own building block for climate services
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="guide_science-crai.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Science for an OGC Building Block for climate services
   </a>
  </li>
@@ -243,7 +246,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/climateintelligence/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fsections/intro.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/climateintelligence/smartduck-docs/issues/new?title=Issue%20on%20page%20%2Fsections/guide_science-crai.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -271,7 +274,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/sections/intro.md"
+        <a href="../_sources/sections/guide_science-crai.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -308,23 +311,90 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#example-crai-climate-reconstruction-ai">
+   Example CRAI (Climate Reconstruction AI)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-method">
+   The method
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installation">
+   Installation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usage">
+   Usage
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>OGC Building Blocks for Climate Services</h1>
+                <h1>Science for an OGC Building Block for climate services</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#example-crai-climate-reconstruction-ai">
+   Example CRAI (Climate Reconstruction AI)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-method">
+   The method
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installation">
+   Installation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usage">
+   Usage
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -332,23 +402,101 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="ogc-building-blocks-for-climate-services">
-<h1>OGC Building Blocks for Climate Services<a class="headerlink" href="#ogc-building-blocks-for-climate-services" title="Permalink to this headline">#</a></h1>
-<p>The following sections are instructions, guidelines and backgrounds around OGC API based software which can be used to set up Climate Resilience Information Systems (CRIS). In the following sections we are using the <a class="reference external" href="https://github.com/climateintelligence/duck">Duck</a> software as example to guide you through the different stepps necessay to set up a Building Block for Climate services.
-The demo web-application has been created by Carsten Ehbrecht and Étienne Plésiat in the framework of the work package 8 of the <a class="reference external" href="https://climateintelligence.eu/">CLINT</a> H2020 project. Duck provides an AI-enhanced service to infill missing values in climate datasets.</p>
-<p>Here we understand <strong>Building Blocks for Climate Services</strong> as standalone software in line to the <a class="reference external" href="https://developer.ogc.org">OGC API standards</a>. In the <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation you can find a collection on OGC Standards based software. These software blocks can be used to build customised Climate Resilience Information System. The building blocks for climate services can be named with birdnames.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="guide_developservice.html">Develop your own building block for climate services</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">Science for an OGC Building Block for climate services</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_deployment-duck.html">Deploy a building block as Climate Service</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_GUI-phoenix.html">GUI for Climate Services Information Systems</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_client-birdy.html">Commands to call a Climate Services Information System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_fairclimateservices.html">FAIR Climate Services</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ogc_existingBuildingBlocks.html">Existing OGC building blocks for climate service</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography</a></li>
+  <section class="tex2jax_ignore mathjax_ignore" id="science-for-an-ogc-building-block-for-climate-services">
+<h1>Science for an OGC Building Block for climate services<a class="headerlink" href="#science-for-an-ogc-building-block-for-climate-services" title="Permalink to this headline">#</a></h1>
+<section id="example-crai-climate-reconstruction-ai">
+<h2>Example CRAI (Climate Reconstruction AI)<a class="headerlink" href="#example-crai-climate-reconstruction-ai" title="Permalink to this headline">#</a></h2>
+<p><a class="reference external" href="https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint">CRAI</a> is a state-of-the-art deep learning based inpainting technology to infill missing values in climate datasets.</p>
+</section>
+<section id="the-method">
+<h2>The method<a class="headerlink" href="#the-method" title="Permalink to this headline">#</a></h2>
+<p>The infilling algorithm is trained with complete climate datasets and masks defining realistic regions of missing observational data.</p>
+<figure class="align-default">
+<img alt="../_images/pconv-unet.png" src="../_images/pconv-unet.png" />
+</figure>
+<p>As shown in the figure, the neural network has a U-net architecture and makes use of <em>partial convolutional layers</em> instead of standard convolution layers. A <em>partial convolutional layer</em> is a combination of two successive operations:</p>
+<ul class="simple">
+<li><p>a partial convolution:
+<span class="math notranslate nohighlight">\(x'=\left\{\begin{array}{ll}\boldsymbol{W}^T\left(\boldsymbol{X}\odot\boldsymbol{M}\right) \frac{\text{sum}(\boldsymbol{1})}{\text{sum}(\boldsymbol{M})} +b, &amp; \text{if sum}(\boldsymbol{M})&gt;0 \\ 0, &amp;\text{otherwise}\end{array}\right.\)</span></p></li>
+<li><p>a mask update:
+<span class="math notranslate nohighlight">\(m'=\left\{\begin{array}{ll}1, &amp; \text{if sum}(\boldsymbol{M})&gt;0 \\ 0, &amp;\text{otherwise}\end{array}\right.\)</span></p></li>
 </ul>
+<p>where <span class="math notranslate nohighlight">\(\boldsymbol{W}\)</span> are the convolution filter weights, <span class="math notranslate nohighlight">\(\boldsymbol{X}\)</span> the feature values, <span class="math notranslate nohighlight">\(\boldsymbol{M}\)</span> the binary mask values and <span class="math notranslate nohighlight">\(b\)</span> the bias.</p>
+<p>Compared to other inpainting methods <a class="footnote-reference brackets" href="#id2" id="id1">1</a>, the partial convolution technique offers several advantages:</p>
+<ul class="simple">
+<li><p>it operates robustly on irregular holes</p></li>
+<li><p>it can infill large holes</p></li>
+<li><p>it produces semantically meaningful predictions</p></li>
+</ul>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">#</a></h2>
+<p>CRAI is written in Python and based on the PyTorch framework and the NVIDIA CUDA® Deep Neural Network library (cuDNN). It is licensed under the terms of the BSD 3-Clause.</p>
+<p>Step 1: clone the branch of the repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone -b clint --single-branch https://github.com/FREVA-CLINT/climatereconstructionAI.git
+</pre></div>
 </div>
+<p>Step 2: create en environment with all the required dependencies using Anaconda</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda env create -f environment.yml
+</pre></div>
+</div>
+<p>Step3: activate the environment</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda activate crai
+</pre></div>
+</div>
+<p>Step4: install the Python package using pip</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install .
+</pre></div>
+</div>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">#</a></h2>
+<p>The software can be used to:</p>
+<ul class="simple">
+<li><p>train a model (<strong>training</strong>)</p></li>
+<li><p>infill climate datasets using a trained model (<strong>evaluation</strong>)</p></li>
+</ul>
+<p>It can be used as:</p>
+<ul>
+<li><p>a command line interface (CLI):</p>
+<ul class="simple">
+<li><p>training:</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>crai-train
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>evaluation:</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>crai-evaluate
+</pre></div>
+</div>
+</li>
+<li><p>a Python library:</p>
+<ul class="simple">
+<li><p>training:</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">climatereconstructionai</span> <span class="kn">import</span> <span class="n">train</span>
+<span class="n">train</span><span class="p">()</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>evaluation:</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">climatereconstructionai</span> <span class="kn">import</span> <span class="n">evaluate</span>
+<span class="n">evaluate</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>For more details about the execution and the input arguments, please have a look to the documentation and demo examples hosted in the <a class="reference external" href="https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint">repository</a></p>
+<hr class="footnotes docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="id2"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="https://doi.org/10.1007/978-3-030-01252-6_6">Liu, G. <em>et al.</em>, <em>Computer Vision—ECCV 2018 Lecture Notes in Computer Science</em> 11215, 19-35 (2018)</a></p>
+</dd>
+</dl>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -378,10 +526,17 @@ The demo web-application has been created by Carsten Ehbrecht and Étienne Plés
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="guide_developservice.html" title="next page">
+    <a class='left-prev' id="prev-link" href="guide_developservice.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Develop your own building block for climate services</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="guide_deployment-duck.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Develop your own building block for climate services</p>
+        <p class="prev-next-title">Deploy a building block as Climate Service</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
