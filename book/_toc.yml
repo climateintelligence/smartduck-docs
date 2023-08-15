@@ -4,7 +4,6 @@ chapters:
 # - file: sections/ogc_existingBuildingBlocks
 - file: sections/guide_developservice
 - file: sections/guide_science-crai
-- file: sections/guide_developservice
 - file: sections/guide_deployment-duck
 # - file: sections/guide_docs-tests
 # - file: sections/guide_administration
