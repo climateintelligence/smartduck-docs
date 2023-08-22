@@ -1,4 +1,4 @@
-# Science for an OGC Building Block for climate services
+# transfer scientific algorythems into technical application packages for CRIS
 
 ## Example CRAI (Climate Reconstruction AI)
 

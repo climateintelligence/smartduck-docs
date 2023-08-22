@@ -1,4 +1,4 @@
-# Deploy a building block as Climate Service
+# Deploy an applicaton package into a CRIS
 
 ## Example: Duck Demo App
 

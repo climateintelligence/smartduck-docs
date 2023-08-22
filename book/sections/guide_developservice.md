@@ -1,15 +1,15 @@
-# Develop your own building block for climate services
+# Develop your own climate application package
 
-The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems.
+The following sections are describing how to transfer scientific methods into technical services which are deployable in CRIS.
 
 ## Get started with the environment
 
-The climate building blocks (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Services Information System. The enviroments are organized with [conda](https://docs.conda.io/en/latest/) repective [mamba](https://github.com/conda-forge/miniforge#mambaforge).
+The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The enviroments are organized with [conda](https://docs.conda.io/en/latest/) repective [mamba](https://github.com/conda-forge/miniforge#mambaforge).
 
-## Set up the skeleton of your new climate building block
-The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. [Birdhouse](http://bird-house.github.io/) organisation lowers the barriers to set up new Climate building blocks by providing tools enable you to build your own customised [OGC API Processes](https://ogcapi.ogc.org/processes/) application in support of web-based geospatial (climate) data analysis.
+## Set up the skeleton of your new climate application package
+The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. [Birdhouse](http://bird-house.github.io/) organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised [OGC API Processes](https://ogcapi.ogc.org/processes/) application in support of web-based geospatial (climate) data analysis.
 
-Within the Birdhouse organisation you can find:
+Within the Birdhouse organisation you can find an appropriate utility to set up a seleton for a new climate application package:
 
 * A [Cookiecutter template](https://github.com/bird-house/cookiecutter-birdhouse) to create your own [PyWPS](http://pywps.org/) compute service.
 
@@ -83,9 +83,9 @@ or
 http://localhost:5000/wps?version=1.0.0&request=DescribeProcess&&service=WPS&identifier=hello
 
 
-## Fill your new climate building block with scientific algorithms
+## Fill your new climate application package with scientific algorithms
 
-Once your new Climate Building block is created, it needs to be filled with scientific algorithms.
+Once your new climate application package is created, it needs to be filled with scientific algorithms.
 In contrast to a script that you are running locally in an individual way a service needs to be standardised.
 The following figure is illustating the principles design of a technical service. Input data needs to be provided by a given adress to the appropriate resouces and and parameters to modify the execution needs to be provided as well.
 On the other side, the number of output files are defined as well. Here number and format will be fixed.

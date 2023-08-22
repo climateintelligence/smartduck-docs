@@ -1,64 +1,76 @@
-# OGC Building Blocks for Climate Services
+# Application Packages for Climate Resilience Information Systems
 
-Overview of birdhouse components
+Here is a list of active software packages to be used to spin off technical climate resilience information systems (CRIS). CRIS can be used to underpinn consulting climate services with information on demand.  
 
 ```{figure} /media/Birdhouse_Schema.png
 :scale: 50%
 ```
+The figure shows an overview of climate Application Packages for CRIS. 
 
-<table class="c28">
-  <tr class="c12">
-    <td class="c14 c31" colspan="1" rowspan="1"><p class="c0 c4"><span class="c17"></span></p></td><td class="c18 c31" colspan="1" rowspan="1"><p class="c0"><span class="c20">Software Component</span></p></td><td class="c37 c31" colspan="1" rowspan="1">
-    <p class="c0"><span class="c17">Usage &nbsp;</span></p></td><td class="c31 c33" colspan="1" rowspan="1"><p class="c0"><span class="c20 c23">Development stage</span></p></td></tr>
-  <tr class="c12">
-    <td class="c14" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c0"><span class="c15 c20"><a class="c3" href="https://www.google.com/url?q=https://birdhouse.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924221249&amp;usg=AOvVaw11T54PUxkgSP-e_Ehjo0ps">Birdhouse</a></span><span class="c2">&nbsp;</span></p> </td> <td class="c37" colspan="1" rowspan="1"><p class="c0"><span class="c2 c13">Collection of OGC based building blocks for Climate data processing</span></p></td> <td class="c33" colspan="1" rowspan="1"><p class="c0"><span class="c2">Organization in GitHub </span></p></td></tr>
-  <tr class="c12">
-    <td class="c14" colspan="1" rowspan="1"><p class="c0"><span class="c2">OWS</span></p></td><td class="c18" colspan="1"   rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=http://twitcher.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924222758&amp;usg=AOvVaw3HacfbhUExDgbfy0CytKhE">Twitcher</a></span></p></td><td class="c37" colspan="1" rowspan="1"><p class="c0"><span class="c13">BH </span><span class="c13">Security Proxy for WPS, WCS, WMS</span></p></td><td class="c33" colspan="1" rowspan="1"><p class="c0"><span class="c2">Deployed in PAVICS</span></p></td> </tr>
-  <tr class="c12">
-    <td class="c14" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c0"><span class="c2">Magpie</span></p></td><td class="c37" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2 c13"></span></p></td><td class="c33" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c12">
-    <td class="c14" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c35" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://cookiecutter-birdhouse.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924225219&amp;usg=AOvVaw2phI7Vstmc2QZ8xhgvKo4C">cookiecutter-birdhouse</a></span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c0"><span class="c2">BH WPS skeleton creator (PyWPS), &nbsp;</span></p><p class="c0"><span class="c2">Developer utility tool </span></p></td><td class="c41" colspan="1" rowspan="1"><p class="c0"><span class="c2">Version 0.5</span></p></td></tr>
-  <tr class="c12">
-    <td class="c14" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c34" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://birdy.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924226903&amp;usg=AOvVaw2PY0t1Il7y-2YRqp4izl7Z">Birdy</a></span></p></td><td class="c16" colspan="1" rowspan="1"><p class="c0"><span class="c2">BH Python WPS client used in Notebooks (based on OWSLib)</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c0"><span class="c2">Version 0.8.1</span></p></td></tr>
-  <tr class="c5">
-    <td class="c6 c38" colspan="1" rowspan="7"><p class="c0"><span class="c29">Web Processing Services </span></p></td><td class="c6 c36" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://emu.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924228653&amp;usg=AOvVaw13T971rDxfjktpmdJN3DLW">Emu</a></span><span class="c2">&nbsp;</span></p></td><td class="c6 c19" colspan="1" rowspan="1"><p class="c0"><span class="c2">Demo WPS</span></p></td><td class="c41 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">Version 0.12</span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://pavics-sdi.readthedocs.io/projects/finch/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924230335&amp;usg=AOvVaw33wV-WbNy0qF-x7ZlIap84">Finch</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span>services for climate indices calculation</span></p></td><td class="c21 c6" colspan="1" rowspan="1"><p class="c0"><span>Deployed in <br>Climatedata.ca / </span><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://pavics.ouranos.ca&amp;sa=D&amp;source=editors&amp;ust=1660816924231184&amp;usg=AOvVaw2k2wIHn7dtNi0Nu89UH2Ck">PAVICS</a></span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://flyingpigeon.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924231982&amp;usg=AOvVaw3E7Azf31-zbbon7Sea2y2n">Flyingpigon</a></span><span class="c2">&nbsp;</span></p></td><td class="c7 c6" colspan="1" rowspan="1">
-    <p class="c0"><span class="c2">Test-suite</span></p></td>
-    <td class="c21 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">Deployed in PAVICS</span></p></td></tr>
-  <tr class="c43">
-    <td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://github.com/roocs&amp;sa=D&amp;source=editors&amp;ust=1660816924233232&amp;usg=AOvVaw0xxR0tVRG4rdsaY89vgSnW">Rooks</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">remote operations on climate simulations</span></p></td>
-    <td class="c21 c6" colspan="1" rowspan="1"><p class="c0"><span>Deployed in <br></span><span>C3S</span><sup><a href="#cmnt1" id="cmnt_ref1">[a]</a></sup><sup><a href="#cmnt2" id="cmnt_ref2">[b]</a></sup><span class="c2"><br>CEDA </span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://pavics-sdi.readthedocs.io/projects/raven/en/latest/notebooks/index.html&amp;sa=D&amp;source=editors&amp;ust=1660816924234839&amp;usg=AOvVaw3Sg3MfLA4mPX0NvZQ_61UK">RavenWPS</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">Hydrological modelling</span></p></td><td class="c21 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">Deployed in PAVICS</span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=http://birdhouse-hummingbird.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924236244&amp;usg=AOvVaw31Wzlsstg7LUCM1sLrBW-A">Hummingbird</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span>compliance-checker </span></p></td><td class="c6 c21" colspan="1" rowspan="1"><p class="c0"><span class="c2">DKRZ internal usage</span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://github.com/cedadev/goldfinch&amp;sa=D&amp;source=editors&amp;ust=1660816924237915&amp;usg=AOvVaw30tvc7WHujib5O3dl7u5_B">Goldfinch</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">filtering and extraction of MIDAS data</span></p></td><td class="c21 c6" colspan="1" rowspan="1"><p class="c0"><span>Deployed at </span><span>CEDA</span><sup><a href="#cmnt3" id="cmnt_ref3">[c]</a></sup><sup><a href="#cmnt4" id="cmnt_ref4">[d]</a></sup></p></td></tr>
-  <tr class="c5">
-    <td class="c1 c6" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://climateintelligence.github.io/smartduck-docs/sections/duck.html&amp;sa=D&amp;source=editors&amp;ust=1660816924239493&amp;usg=AOvVaw0kht8RMe1Bv4u3d57uQR1z">Duck</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">AI enhanced process to Fill in missing values </span></p></td><td class="c21 c6" colspan="1" rowspan="1"><p class="c0"><span class="c2">In context of CLINT project. </span></p></td></tr>
-  <tr class="c5">
-    <td class="c1 c6" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c26 c6" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://github.com/bird-house/pelican&amp;sa=D&amp;source=editors&amp;ust=1660816924241219&amp;usg=AOvVaw3qZSlvc491OdoNUq2sSSRT">Pelican</a></span></p></td><td class="c7 c6" colspan="1" rowspan="1"><p class="c0"><span>WPS supporting ESGF compute API</span></p></td><td class="c21 c6" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c1 c24" colspan="1" rowspan="1"><p class="c0"><span class="c27">EMS/ADES</span></p></td><td class="c26 c24" colspan="1" rowspan="1"><p class="c40"><span class="c15 c27"><a class="c3" href="https://www.google.com/url?q=https://pavics-weaver.readthedocs.io/en/latest/&amp;sa=D&amp;source=editors&amp;ust=1660816924243007&amp;usg=AOvVaw1VCQlWHpbA0PvoaSyi6Qw4">WEAVER</a></span></p></td><td class="c7 c24" colspan="1" rowspan="1"><p class="c0"><span class="c27">implementation following OGC API - Processes best practices.</span></p></td><td class="c21 c24" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=http://docs.opengeospatial.org/per/20-045.html%23_open_source_software_4&amp;sa=D&amp;source=editors&amp;ust=1660816924243900&amp;usg=AOvVaw22QBuuFacKi801Tvd-c-LC">OGC EO-Pilot</a></span></p></td></tr>
-  <tr class="c5">
-    <td class="c1" colspan="1" rowspan="4"><p class="c0 c4"><span class="c2"></span></p></td><td class="c26" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://github.com/roocs/rooki&amp;sa=D&amp;source=editors&amp;ust=1660816924244993&amp;usg=AOvVaw1PeZJ1lymJDD331QwFM55x">Rooki</a></span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c0"><span class="c2">PYTHON Library</span></p></td><td class="c21" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c26" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c21" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c26" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c21" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c26" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c21" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c1 c9" colspan="1" rowspan="4"><p class="c0"><span class="c2">Web Coverage Services</span></p></td><td class="c26 c9" colspan="1" rowspan="1"><p class="c0"><span class="c15"><a class="c3" href="https://www.google.com/url?q=https://pavics-sdi.readthedocs.io/projects/raven/en/latest/notebooks/index.html&amp;sa=D&amp;source=editors&amp;ust=1660816924249762&amp;usg=AOvVaw36lQLWXRj_a4jovAPhQMUq">RavenWPS</a></span></p></td><td class="c7 c9" colspan="1" rowspan="1"><p class="c0"><span class="c2">Hydrological modelling</span></p></td><td class="c21 c9" colspan="1" rowspan="1"><p class="c0"><span class="c2">deployed in PAVICS</span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c7 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c21 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c26 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c7 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c21 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c9 c26" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c7 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td><td class="c21 c9" colspan="1" rowspan="1"><p class="c0 c4"><span class="c2"></span></p></td></tr>
-  <tr class="c5">
-    <td class="c1 c13" colspan="1" rowspan="1"><p class="c0"><span class="c2">Web Feature Services (WFS)</span></p></td><td class="c26 c13" colspan="1" rowspan="1"><p class="c0"><span class="c2">RavenWPS</span></p></td><td class="c7 c13" colspan="1" rowspan="1"><p class="c0"><span class="c2">Hydrological modelling</span></p></td><td class="c21 c13" colspan="1" rowspan="1"><p class="c0"><span class="c2">deployed in PAVICS</span></p></td></tr>
-</table>
+
+
+
+```{list-table} Application Packages for Climate Resilience Information Systems 
+:header-rows: 1
+:name: tab-climate-application-packages
+
+* - Software Component
+  - Usage
+  - Development stage
+* - [Birdhouse](http://bird-house.github.io/) 
+  - Collection of OGC based application packages for CRIS
+  - Organization in GitHub 
+* - [Twitcher](http://twitcher.readthedocs.io/) 
+  - Security Proxy for WPS, WCS, WMS
+  - Deployed in [PAVICS](https://pavics-sdi.readthedocs.io/en/latest/)
+* - [Phoenix](https://pyramid-phoenix.readthedocs.io/en/latest/)
+  - Graphical User Interphase Frontend 
+  - Deployed at [CLINT Demonstrator](clint.dkrz.de)
+* - [Magpie](https://pavics-magpie.readthedocs.io/en/latest/)
+  -   
+  -      
+* - [cookiecutter-birdhouse](https://cookiecutter-birdhouse.readthedocs.io)
+  - Utility to create an OGC API Processes application package skeleton
+  - Version 0.5
+* - [birdy](https://birdy.readthedocs.io) 
+  - Python WPS client to call a serverside deployed application package
+  - Version 0.8.1
+* - [emu](https://emu.readthedocs.io/)
+  - Demo and testing application for training purpose
+  - Version 0.12
+* - [finch](https://pavics-sdi.readthedocs.io/)
+  - application package for processing services to calculate climate indices
+  - Deployed in [Climatedata.ca](Climatedata.ca) and [PAVICS](https://pavics.ouranos.ca)
+* - [flyingpigon](https://flyingpigeon.readthedocs.io)
+  - Test-suite
+  - Deployed in [PAVICS](https://pavics.ouranos.ca)
+* - [rooks](https://github.com/roocs)
+  - Remote operations on climate simulations
+  - Deployed in [COPERNICUS Climate Data Store (CDS)](https://cds.climate.copernicus.eu/#!/home) and CEDA
+* - [ravenWPS](https://pavics-sdi.readthedocs.io/projects/raven/en/latest/notebooks/index.html)
+  - Hydrological modelling
+  - Deployed in [PAVICS](https://pavics.ouranos.ca)
+* - [hummingbird](http://birdhouse-hummingbird.readthedocs.io/) 
+  - data compliance checker 
+  - DKRZ internal usage
+* - [goldfinch](https://github.com/cedadev/goldfinch)
+  - filtering and extraction of MIDAS data
+  - Deployed at CEDA 
+* - [duck](https://climateintelligence.github.io/smartduck-docs/sections/duck.html)
+  - AI enhanced process to Fill in missing values
+  - Deployed at [CLINT Demonstrator](clint.dkrz.de)
+* - [pelican](https://github.com/bird-house/pelican)
+  - WPS supporting ESGF compute API
+  - 
+* - [WEAVER](https://pavics-weaver.readthedocs.io/en/latest/)
+  - Implementation following OGC API - Processes best practices.
+  - [OGC EO-Pilot](http://docs.opengeospatial.org/per/20-045.html%23_open_source_software_4&amp;sa=D&amp;source=editors&amp;ust=1660816924243900&amp;usg=AOvVaw22QBuuFacKi801Tvd-c-LC)
+* - [Rooki](https://www.google.com/url?q=https://github.com/roocs/rooki&amp;sa=D&amp;source=editors&amp;ust=1660816924244993&amp;usg=AOvVaw1PeZJ1lymJDD331QwFM55x)
+  - PYTHON Library
+  - 
+* - [RavenWPS](https://pavics-sdi.readthedocs.io/projects/raven/en/latest/notebooks/index.html) 
+  - Hydrological modelling
+  - Deployed in [PAVICS](https://pavics.ouranos.ca)
+
+
+```
