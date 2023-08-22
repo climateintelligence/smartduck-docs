@@ -1,7 +1,7 @@
 format: jb-book
 root: sections/intro
 chapters:
-# - file: sections/ogc_existingBuildingBlocks
+- file: sections/ogc_existingBuildingBlocks
 - file: sections/guide_developservice
 - file: sections/guide_science-crai
 - file: sections/guide_deployment-duck
