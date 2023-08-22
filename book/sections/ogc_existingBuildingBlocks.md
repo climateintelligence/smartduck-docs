@@ -23,6 +23,9 @@ The figure shows an overview of climate Application Packages for CRIS.
 * - [Twitcher](http://twitcher.readthedocs.io/) 
   - Security Proxy for WPS, WCS, WMS
   - Deployed in [PAVICS](https://pavics-sdi.readthedocs.io/en/latest/)
+* - [Phoenix](https://pyramid-phoenix.readthedocs.io/en/latest/)
+  - Graphical User Interphase Frontend 
+  - Deployed at [CLINT Demonstrator](clint.dkrz.de)
 * - [Magpie](https://pavics-magpie.readthedocs.io/en/latest/)
   -   
   -      
