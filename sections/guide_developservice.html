@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Develop your own building block for climate services &#8212; Smartduck</title>
+    <title>Develop your own climate application package &#8212; Smartduck</title>
   
   
   
@@ -64,8 +64,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'sections/guide_developservice';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Science for an OGC Building Block for climate services" href="guide_science-crai.html" />
-    <link rel="prev" title="Climate Resilience Information Systems" href="intro.html" />
+    <link rel="next" title="transfer scientific algorythems into technical application packages for CRIS" href="guide_science-crai.html" />
+    <link rel="prev" title="Application Packages for Climate Resilience Information Systems" href="ogc_existingBuildingBlocks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -157,12 +157,13 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Develop your own building block for climate services</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">Science for an OGC Building Block for climate services</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_deployment-duck.html">Deploy a building block as Climate Service</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_GUI-phoenix.html">GUI for Climate Services Information Systems</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_client-birdy.html">Commands to call a Climate Services Information System</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_fairclimateservices.html">FAIR Climate Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ogc_existingBuildingBlocks.html">Application Packages for Climate Resilience Information Systems</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Develop your own climate application package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">transfer scientific algorythems into technical application packages for CRIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_deployment-duck.html">Deploy an applicaton package into a CRIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_GUI-phoenix.html">GUI for Climate Resilience Information Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_client-birdy.html">Commands to call a Climate Resilience Information System</a></li>
 <li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography</a></li>
 </ul>
 
@@ -347,7 +348,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Develop your own building block for climate services</h1>
+    <h1>Develop your own climate application package</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -358,11 +359,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#get-started-with-the-environment">Get started with the environment</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-the-skeleton-of-your-new-climate-building-block">Set up the skeleton of your new climate building block</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-the-skeleton-of-your-new-climate-application-package">Set up the skeleton of your new climate application package</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-build-the-building-block-duck">Example: build the Building Block ‘duck’</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-the-birds-environment">create the birds environment.</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-and-running-the-bird">Installing and running the bird</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fill-your-new-climate-building-block-with-scientific-algorithms">Fill your new climate building block with scientific algorithms</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fill-your-new-climate-application-package-with-scientific-algorithms">Fill your new climate application package with scientific algorithms</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-functions">Writing functions</a></li>
 </ul>
 </li>
@@ -377,17 +378,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="develop-your-own-building-block-for-climate-services">
-<h1>Develop your own building block for climate services<a class="headerlink" href="#develop-your-own-building-block-for-climate-services" title="Permalink to this heading">#</a></h1>
-<p>The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="develop-your-own-climate-application-package">
+<h1>Develop your own climate application package<a class="headerlink" href="#develop-your-own-climate-application-package" title="Permalink to this heading">#</a></h1>
+<p>The following sections are describing how to transfer scientific methods into technical services which are deployable in CRIS.</p>
 <section id="get-started-with-the-environment">
 <h2>Get started with the environment<a class="headerlink" href="#get-started-with-the-environment" title="Permalink to this heading">#</a></h2>
-<p>The climate building blocks (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Services Information System. The enviroments are organized with <a class="reference external" href="https://docs.conda.io/en/latest/">conda</a> repective <a class="reference external" href="https://github.com/conda-forge/miniforge#mambaforge">mamba</a>.</p>
+<p>The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The enviroments are organized with <a class="reference external" href="https://docs.conda.io/en/latest/">conda</a> repective <a class="reference external" href="https://github.com/conda-forge/miniforge#mambaforge">mamba</a>.</p>
 </section>
-<section id="set-up-the-skeleton-of-your-new-climate-building-block">
-<h2>Set up the skeleton of your new climate building block<a class="headerlink" href="#set-up-the-skeleton-of-your-new-climate-building-block" title="Permalink to this heading">#</a></h2>
-<p>The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation lowers the barriers to set up new Climate building blocks by providing tools enable you to build your own customised <a class="reference external" href="https://ogcapi.ogc.org/processes/">OGC API Processes</a> application in support of web-based geospatial (climate) data analysis.</p>
-<p>Within the Birdhouse organisation you can find:</p>
+<section id="set-up-the-skeleton-of-your-new-climate-application-package">
+<h2>Set up the skeleton of your new climate application package<a class="headerlink" href="#set-up-the-skeleton-of-your-new-climate-application-package" title="Permalink to this heading">#</a></h2>
+<p>The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised <a class="reference external" href="https://ogcapi.ogc.org/processes/">OGC API Processes</a> application in support of web-based geospatial (climate) data analysis.</p>
+<p>Within the Birdhouse organisation you can find an appropriate utility to set up a seleton for a new climate application package:</p>
 <ul class="simple">
 <li><p>A <a class="reference external" href="https://github.com/bird-house/cookiecutter-birdhouse">Cookiecutter template</a> to create your own <a class="reference external" href="http://pywps.org/">PyWPS</a> compute service.</p></li>
 </ul>
@@ -455,9 +456,9 @@ With <code class="docutils literal notranslate"><span class="pre">duck</span> <s
 or
 <a class="reference external" href="http://localhost:5000/wps?version=1.0.0&amp;amp;request=DescribeProcess&amp;amp;&amp;amp;service=WPS&amp;amp;identifier=hello">http://localhost:5000/wps?version=1.0.0&amp;request=DescribeProcess&amp;&amp;service=WPS&amp;identifier=hello</a></p>
 </section>
-<section id="fill-your-new-climate-building-block-with-scientific-algorithms">
-<h2>Fill your new climate building block with scientific algorithms<a class="headerlink" href="#fill-your-new-climate-building-block-with-scientific-algorithms" title="Permalink to this heading">#</a></h2>
-<p>Once your new Climate Building block is created, it needs to be filled with scientific algorithms.
+<section id="fill-your-new-climate-application-package-with-scientific-algorithms">
+<h2>Fill your new climate application package with scientific algorithms<a class="headerlink" href="#fill-your-new-climate-application-package-with-scientific-algorithms" title="Permalink to this heading">#</a></h2>
+<p>Once your new climate application package is created, it needs to be filled with scientific algorithms.
 In contrast to a script that you are running locally in an individual way a service needs to be standardised.
 The following figure is illustating the principles design of a technical service. Input data needs to be provided by a given adress to the appropriate resouces and and parameters to modify the execution needs to be provided as well.
 On the other side, the number of output files are defined as well. Here number and format will be fixed.</p>
@@ -551,12 +552,12 @@ On the other side, the number of output files are defined as well. Here number a
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="ogc_existingBuildingBlocks.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Climate Resilience Information Systems</p>
+        <p class="prev-next-title">Application Packages for Climate Resilience Information Systems</p>
       </div>
     </a>
     <a class="right-next"
@@ -564,7 +565,7 @@ On the other side, the number of output files are defined as well. Here number a
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Science for an OGC Building Block for climate services</p>
+        <p class="prev-next-title">transfer scientific algorythems into technical application packages for CRIS</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -587,11 +588,11 @@ On the other side, the number of output files are defined as well. Here number a
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#get-started-with-the-environment">Get started with the environment</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-the-skeleton-of-your-new-climate-building-block">Set up the skeleton of your new climate building block</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-the-skeleton-of-your-new-climate-application-package">Set up the skeleton of your new climate application package</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-build-the-building-block-duck">Example: build the Building Block ‘duck’</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-the-birds-environment">create the birds environment.</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-and-running-the-bird">Installing and running the bird</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fill-your-new-climate-building-block-with-scientific-algorithms">Fill your new climate building block with scientific algorithms</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fill-your-new-climate-application-package-with-scientific-algorithms">Fill your new climate application package with scientific algorithms</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-functions">Writing functions</a></li>
 </ul>
 </li>

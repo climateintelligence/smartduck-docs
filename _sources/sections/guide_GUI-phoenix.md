@@ -1,4 +1,4 @@
-# GUI for Climate Services Information Systems
+# GUI for Climate Resilience Information Systems
 
 ## Example: Phoenix
 
