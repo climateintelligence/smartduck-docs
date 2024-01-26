@@ -4,16 +4,16 @@ The following sections are describing how to transfer scientific methods into te
 
 ## Get started with the environment
 
-The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The enviroments are organized with [conda](https://docs.conda.io/en/latest/) repective [mamba](https://github.com/conda-forge/miniforge#mambaforge).
+The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The environments are organized with [conda](https://docs.conda.io/en/latest/) repective [mamba](https://github.com/conda-forge/miniforge#mambaforge).
 
 ## Set up the skeleton of your new climate application package
-The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. [Birdhouse](http://bird-house.github.io/) organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised [OGC API Processes](https://ogcapi.ogc.org/processes/) application in support of web-based geospatial (climate) data analysis.
+The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropriate scientific methods are not already available and accessible as technical services. [Birdhouse](http://bird-house.github.io/) organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised [OGC API Processes](https://ogcapi.ogc.org/processes/) application in support of web-based geospatial (climate) data analysis.
 
-Within the Birdhouse organisation you can find an appropriate utility to set up a seleton for a new climate application package:
+Within the Birdhouse organisation you can find an appropriate utility to set up a skeleton for a new climate application package:
 
 * A [Cookiecutter template](https://github.com/bird-house/cookiecutter-birdhouse) to create your own [PyWPS](http://pywps.org/) compute service.
 
-The cockiecutter can be installed with:
+The cookiecutter can be installed with:
 
 ```
 conda install -c conda-forge cookiecutter cruft
@@ -87,7 +87,7 @@ http://localhost:5000/wps?version=1.0.0&request=DescribeProcess&&service=WPS&ide
 
 Once your new climate application package is created, it needs to be filled with scientific algorithms.
 In contrast to a script that you are running locally in an individual way a service needs to be standardised.
-The following figure is illustating the principles design of a technical service. Input data needs to be provided by a given adress to the appropriate resouces and and parameters to modify the execution needs to be provided as well.
+The following figure is illustrating the principles design of a technical service. Input data needs to be provided by a given address to the appropriate resouces and parameters to modify the execution needs to be provided as well.
 On the other side, the number of output files are defined as well. Here number and format will be fixed.
 
 ```{figure} /media/guide_processscheema.png
@@ -95,7 +95,7 @@ On the other side, the number of output files are defined as well. Here number a
 
 Basically your existing code can be integrated by simply taking care of some rules:
 
-*    no hard coding of path to local data sources, since the building block should run on all kind of different servers
+*    no hard coding of path to local data sources, since the building block should run on all kinds of different servers
 *    encapsulating the processing steps in `try` and `exception` brackets with senseful log messages
 
 
@@ -111,7 +111,7 @@ Basically your existing code can be integrated by simply taking care of some rul
 ```   -->
 ### Writing functions
 
-A Process is calling several functions during the performance. Since WPS is a autonom running process several eventualities needs to be taken into account. If irregularities are occurring, it is a question of the process design if the performance should stop and return an error or continue with may be an modified result.
+A Process is calling several functions during the performance. Since WPS is a autonom running process several eventualities needs to be taken into account. If irregularities are occurring, it is a question of the process design if the performance should stop and return an error or continue with maybe a modified result.
 
 In practice, the functions should be encapsulated in **try** and **except** calls and appropriate information given to the logfile or shown as a status message. The logger has several options to to influence the running code and the information writing to the logfile:
 
