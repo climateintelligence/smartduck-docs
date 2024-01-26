@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,15 +19,15 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -74,7 +75,15 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -109,11 +118,16 @@ const thebe_selector_output = ".output, .cell_output"
 </form></div>
   </div>
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -128,9 +142,11 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="#">
+  
   
   
   
@@ -140,8 +156,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../_static/smartduck-logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/smartduck-logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/smartduck-logo.png" class="logo__image only-light" alt="Smartduck - Home"/>
+    <script>document.write(`<img src="../_static/smartduck-logo.png" class="logo__image only-dark" alt="Smartduck - Home"/>`);</script>
   
   
 </a></div>
@@ -159,7 +175,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="guide_fairclimateservices.html">FAIR Climate Services</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ogc_existingBuildingBlocks.html">Application Packages for Climate Resilience Information Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_developservice.html">Develop your own climate application package</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">transfer scientific algorythems into technical application packages for CRIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">Transfer scientific algorithms into technical application packages for CRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_deployment-duck.html">Deploy an applicaton package into a CRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_GUI-phoenix.html">GUI for Climate Resilience Information Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_client-birdy.html">Commands to call a Climate Resilience Information System</a></li>
@@ -317,20 +333,22 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -357,19 +375,19 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="climate-resilience-information-systems">
 <h1>Climate Resilience Information Systems<a class="headerlink" href="#climate-resilience-information-systems" title="Permalink to this heading">#</a></h1>
 <p>The following sections are instructions, guidelines and backgrounds around OGC API based software, which can be used to set up <strong>Climate Resilience Information Systems (CRIS)</strong>. In the following sections we are using the <a class="reference external" href="https://github.com/climateintelligence/duck">Duck</a> software as example to guide you through the different stepps necessay to set up an application package to be deployed in an CRIS and used for <strong>Climate Services</strong>.</p>
-<p>Here we understand <strong>Application Packages for CRIS</strong> as standalone software in line to the <a class="reference external" href="https://developer.ogc.org">OGC API standards</a>. Several of this climate applicaiton packages can be found in the <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation which is a collection on OGC Standards based software. These software blocks can be used to build customised Climate Resilience Information System. The building blocks for climate services can be named with birdnames.</p>
+<p>Here we understand <strong>Application Packages for CRIS</strong> as standalone software in line to the <a class="reference external" href="https://developer.ogc.org">OGC API standards</a>. Several of this climate application packages can be found in the <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation which is a collection on OGC Standards based software. These software blocks can be used to build customised Climate Resilience Information System. The building blocks for climate services can be named with birdnames.</p>
 <p>The demo web-application has been created by Carsten Ehbrecht and Étienne Plésiat in the framework of the work package 8 of the <a class="reference external" href="https://climateintelligence.eu/">CLINT</a> H2020 project. Duck provides an AI-enhanced service to infill missing values in climate datasets.</p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="guide_fairclimateservices.html">FAIR Climate Services</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ogc_existingBuildingBlocks.html">Application Packages for Climate Resilience Information Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_developservice.html">Develop your own climate application package</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">transfer scientific algorythems into technical application packages for CRIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">Transfer scientific algorithms into technical application packages for CRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_deployment-duck.html">Deploy an applicaton package into a CRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_GUI-phoenix.html">GUI for Climate Resilience Information Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_client-birdy.html">Commands to call a Climate Resilience Information System</a></li>
@@ -403,11 +421,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="right-next"
        href="guide_fairclimateservices.html"
@@ -418,15 +435,14 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>
@@ -444,6 +460,7 @@ By Carsten Ehbrecht and Étienne Plésiat,
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2022.
@@ -470,8 +487,8 @@ By Carsten Ehbrecht and Étienne Plésiat,
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
 
   <footer class="bd-footer">
   </footer>

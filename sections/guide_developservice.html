@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,15 +19,15 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -64,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'sections/guide_developservice';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="transfer scientific algorythems into technical application packages for CRIS" href="guide_science-crai.html" />
+    <link rel="next" title="Transfer scientific algorithms into technical application packages for CRIS" href="guide_science-crai.html" />
     <link rel="prev" title="Application Packages for Climate Resilience Information Systems" href="ogc_existingBuildingBlocks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -75,7 +76,15 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -110,11 +119,14 @@ const thebe_selector_output = ".output, .cell_output"
 </form></div>
   </div>
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -129,9 +141,11 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="intro.html">
+  
   
   
   
@@ -141,8 +155,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../_static/smartduck-logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/smartduck-logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/smartduck-logo.png" class="logo__image only-light" alt="Smartduck - Home"/>
+    <script>document.write(`<img src="../_static/smartduck-logo.png" class="logo__image only-dark" alt="Smartduck - Home"/>`);</script>
   
   
 </a></div>
@@ -160,7 +174,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="guide_fairclimateservices.html">FAIR Climate Services</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ogc_existingBuildingBlocks.html">Application Packages for Climate Resilience Information Systems</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Develop your own climate application package</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">transfer scientific algorythems into technical application packages for CRIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide_science-crai.html">Transfer scientific algorithms into technical application packages for CRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_deployment-duck.html">Deploy an applicaton package into a CRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_GUI-phoenix.html">GUI for Climate Resilience Information Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guide_client-birdy.html">Commands to call a Climate Resilience Information System</a></li>
@@ -318,20 +332,22 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -376,23 +392,23 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="develop-your-own-climate-application-package">
 <h1>Develop your own climate application package<a class="headerlink" href="#develop-your-own-climate-application-package" title="Permalink to this heading">#</a></h1>
 <p>The following sections are describing how to transfer scientific methods into technical services which are deployable in CRIS.</p>
 <section id="get-started-with-the-environment">
 <h2>Get started with the environment<a class="headerlink" href="#get-started-with-the-environment" title="Permalink to this heading">#</a></h2>
-<p>The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The enviroments are organized with <a class="reference external" href="https://docs.conda.io/en/latest/">conda</a> repective <a class="reference external" href="https://github.com/conda-forge/miniforge#mambaforge">mamba</a>.</p>
+<p>The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The environments are organized with <a class="reference external" href="https://docs.conda.io/en/latest/">conda</a> repective <a class="reference external" href="https://github.com/conda-forge/miniforge#mambaforge">mamba</a>.</p>
 </section>
 <section id="set-up-the-skeleton-of-your-new-climate-application-package">
 <h2>Set up the skeleton of your new climate application package<a class="headerlink" href="#set-up-the-skeleton-of-your-new-climate-application-package" title="Permalink to this heading">#</a></h2>
-<p>The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropiate scientific methods are not already available and accessible as technical services. <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised <a class="reference external" href="https://ogcapi.ogc.org/processes/">OGC API Processes</a> application in support of web-based geospatial (climate) data analysis.</p>
-<p>Within the Birdhouse organisation you can find an appropriate utility to set up a seleton for a new climate application package:</p>
+<p>The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropriate scientific methods are not already available and accessible as technical services. <a class="reference external" href="http://bird-house.github.io/">Birdhouse</a> organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised <a class="reference external" href="https://ogcapi.ogc.org/processes/">OGC API Processes</a> application in support of web-based geospatial (climate) data analysis.</p>
+<p>Within the Birdhouse organisation you can find an appropriate utility to set up a skeleton for a new climate application package:</p>
 <ul class="simple">
 <li><p>A <a class="reference external" href="https://github.com/bird-house/cookiecutter-birdhouse">Cookiecutter template</a> to create your own <a class="reference external" href="http://pywps.org/">PyWPS</a> compute service.</p></li>
 </ul>
-<p>The cockiecutter can be installed with:</p>
+<p>The cookiecutter can be installed with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">cookiecutter</span> <span class="n">cruft</span>
 </pre></div>
 </div>
@@ -460,14 +476,14 @@ or
 <h2>Fill your new climate application package with scientific algorithms<a class="headerlink" href="#fill-your-new-climate-application-package-with-scientific-algorithms" title="Permalink to this heading">#</a></h2>
 <p>Once your new climate application package is created, it needs to be filled with scientific algorithms.
 In contrast to a script that you are running locally in an individual way a service needs to be standardised.
-The following figure is illustating the principles design of a technical service. Input data needs to be provided by a given adress to the appropriate resouces and and parameters to modify the execution needs to be provided as well.
+The following figure is illustrating the principles design of a technical service. Input data needs to be provided by a given address to the appropriate resouces and parameters to modify the execution needs to be provided as well.
 On the other side, the number of output files are defined as well. Here number and format will be fixed.</p>
 <figure class="align-default">
 <img alt="../_images/guide_processscheema.png" src="../_images/guide_processscheema.png" />
 </figure>
 <p>Basically your existing code can be integrated by simply taking care of some rules:</p>
 <ul class="simple">
-<li><p>no hard coding of path to local data sources, since the building block should run on all kind of different servers</p></li>
+<li><p>no hard coding of path to local data sources, since the building block should run on all kinds of different servers</p></li>
 <li><p>encapsulating the processing steps in <code class="docutils literal notranslate"><span class="pre">try</span></code> and <code class="docutils literal notranslate"><span class="pre">exception</span></code> brackets with senseful log messages</p></li>
 </ul>
 <!-- [Another point to think about when designing a process is the possibility of chaining processes together. The result of a process can be a final result or be used as an input for another process. Chaining processes is a common practice but depends on the user you are designing the service for. Technically, for the development of Services process chaining, here are a few summary points:
@@ -482,7 +498,7 @@ On the other side, the number of output files are defined as well. Here number a
 ```   -->
 <section id="writing-functions">
 <h3>Writing functions<a class="headerlink" href="#writing-functions" title="Permalink to this heading">#</a></h3>
-<p>A Process is calling several functions during the performance. Since WPS is a autonom running process several eventualities needs to be taken into account. If irregularities are occurring, it is a question of the process design if the performance should stop and return an error or continue with may be an modified result.</p>
+<p>A Process is calling several functions during the performance. Since WPS is a autonom running process several eventualities needs to be taken into account. If irregularities are occurring, it is a question of the process design if the performance should stop and return an error or continue with maybe a modified result.</p>
 <p>In practice, the functions should be encapsulated in <strong>try</strong> and <strong>except</strong> calls and appropriate information given to the logfile or shown as a status message. The logger has several options to to influence the running code and the information writing to the logfile:</p>
 <figure class="align-default">
 <img alt="../_images/guide_fuctionschain.png" src="../_images/guide_fuctionschain.png" />
@@ -545,11 +561,10 @@ On the other side, the number of output files are defined as well. Here number a
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="ogc_existingBuildingBlocks.html"
@@ -565,14 +580,11 @@ On the other side, the number of output files are defined as well. Here number a
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">transfer scientific algorythems into technical application packages for CRIS</p>
+        <p class="prev-next-title">Transfer scientific algorithms into technical application packages for CRIS</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -580,6 +592,7 @@ On the other side, the number of output files are defined as well. Here number a
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -617,6 +630,7 @@ By Carsten Ehbrecht and Étienne Plésiat,
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2022.
@@ -643,8 +657,8 @@ By Carsten Ehbrecht and Étienne Plésiat,
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
 
   <footer class="bd-footer">
   </footer>

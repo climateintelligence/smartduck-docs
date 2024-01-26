@@ -1,4 +1,4 @@
-# transfer scientific algorythems into technical application packages for CRIS
+# Transfer scientific algorithms into technical application packages for CRIS
 
 ## Example CRAI (Climate Reconstruction AI)
 
